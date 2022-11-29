@@ -1,0 +1,133 @@
+@media screen and (min-width: 0) and (max-width: 767px) {
+  
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .category_container{
+    background-color: rgba(224, 245, 255, 0.751);
+    padding: 0 5rem 2rem 5rem;
+  }
+  
+  .category_title {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 1.4rem;
+    gap: 0.4rem;
+    margin-bottom: .8rem;
+  }
+  
+  .category_title h3{
+    margin: 1rem 0 0 0 ;
+  }
+  
+  .category_title svg {
+    margin: 1rem 0 0 0 ;
+    font-size: 1.9rem;
+    color: #cb2525;
+  }
+  
+  .category_cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+  }
+  
+  .category_card{
+    background-color: #fff;
+    padding: 1rem;
+    position: relative;
+    border: 1px solid rgb(215, 215, 215);
+    width: 90%;
+  }
+  
+  .category_card img{
+    width: 100%;
+  }
+  
+  .category_card span:first-child{
+    position: absolute;
+    right: 1.3rem;
+    padding: 0.2rem;
+    background-color: #f8f8f8e1;
+    border-radius: 1rem;
+    font-size: .8rem;
+    top: 1.3rem;
+  }
+  
+  .category_card-name{
+    font-size: .8rem;
+    top: 1.3rem;
+    position: absolute;
+    background-color: #252585;
+    color: #fff;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    left: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .category_container{
+    background-color: rgba(224, 245, 255, 0.751);
+    padding: 0 5rem 2rem 5rem;
+  }
+  
+  .category_title {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 1.4rem;
+    gap: 0.4rem;
+    margin-bottom: .8rem;
+  }
+  
+  .category_title h3{
+    margin: 1rem 0 0 0 ;
+  }
+  
+  .category_title svg {
+    margin: 1rem 0 0 0 ;
+    font-size: 1.9rem;
+    color: #cb2525;
+  }
+  
+  .category_cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+  }
+  
+  .category_card{
+    background-color: #fff;
+    padding: 1rem;
+    position: relative;
+    border: 1px solid rgb(215, 215, 215);
+    width: 90%;
+  }
+  
+  .category_card img{
+    width: 100%;
+  }
+  
+  .category_card span:first-child{
+    position: absolute;
+    right: 1.3rem;
+    padding: 0.2rem;
+    background-color: #f8f8f8e1;
+    border-radius: 1rem;
+    font-size: .8rem;
+    top: 1.3rem;
+  }
+  
+  .category_card-name{
+    font-size: .8rem;
+    top: 1.3rem;
+    position: absolute;
+    background-color: #252585;
+    color: #fff;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    left: 1.3rem;
+  }
+}

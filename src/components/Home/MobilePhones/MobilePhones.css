@@ -1,0 +1,202 @@
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .mobilephones_container {
+    background-color: rgba(224, 245, 255, 0.751);
+    padding: 0 1rem 2rem 1rem;
+  }
+
+  .flashdeals_container {
+    background-color: transparent;
+  }
+
+  .brands-container {
+    background-color: #fff;
+    height: min-content;
+    padding: 1.4rem;
+    display: grid;
+    gap: 1.2rem;
+  }
+
+  .brands-title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .brands-title h4:last-child {
+    color: rgb(152, 152, 152);
+  }
+
+  .brands-title > * {
+    margin: 0;
+  }
+
+  .brands-content {
+    display: grid;
+    gap: 1.2rem;
+  }
+
+  .brands-content-individual {
+    display: flex;
+    gap: 1rem;
+    background-color: rgb(240, 240, 240);
+    padding: 0.35rem 0.7rem;
+    border-radius: 1rem;
+    cursor: default;
+  }
+
+  .flashdeals_swiperslice img {
+    height: 180px;
+    justify-self: center;
+  }
+
+  .flashdeals_swiperslice h5 {
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 0 0 0.4rem 1rem;
+  }
+
+  .flashdeals_content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    zoom: 75%;
+  }
+
+  .flashdeals_title h3 {
+    margin: 0 0 1rem 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1079px) {
+  .mobilephones_container {
+    background-color: rgba(224, 245, 255, 0.751);
+  }
+
+  .flashdeals_container {
+    background-color: transparent;
+  }
+
+  .brands-container {
+    background-color: #fff;
+    height: min-content;
+    padding: 1.4rem;
+    display: grid;
+    gap: 1.2rem;
+  }
+
+  .brands-title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .brands-title h4:last-child {
+    color: rgb(152, 152, 152);
+  }
+
+  .brands-title > * {
+    margin: 0;
+  }
+
+  .brands-content {
+    display: grid;
+    gap: 1.2rem;
+  }
+
+  .brands-content-individual {
+    display: flex;
+    gap: 1rem;
+    background-color: rgb(240, 240, 240);
+    padding: 0.35rem 0.7rem;
+    border-radius: 1rem;
+    cursor: default;
+  }
+
+  .flashdeals_swiperslice img {
+    height: 180px;
+    justify-self: center;
+  }
+
+  .flashdeals_swiperslice h5 {
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 0 0 0.4rem 1rem;
+  }
+
+  .flashdeals_content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .flashdeals_title h3 {
+    margin: 0 0 1rem 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .mobilephones_container {
+    display: grid;
+    background-color: rgba(224, 245, 255, 0.751);
+    padding: 0 5rem 2rem 5rem;
+    grid-template-columns: 1fr 4fr;
+  }
+
+  .flashdeals_container {
+    background-color: transparent;
+  }
+
+  .brands-container {
+    background-color: #fff;
+    height: min-content;
+    padding: 1.4rem;
+    display: grid;
+    gap: 1.2rem;
+  }
+
+  .brands-title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .brands-title h4:last-child {
+    color: rgb(152, 152, 152);
+  }
+
+  .brands-title > * {
+    margin: 0;
+  }
+
+  .brands-content {
+    display: grid;
+    gap: 1.2rem;
+  }
+
+  .brands-content-individual {
+    display: flex;
+    gap: 1rem;
+    background-color: rgb(240, 240, 240);
+    padding: 0.35rem 0.7rem;
+    border-radius: 1rem;
+    cursor: default;
+  }
+
+  .flashdeals_swiperslice img {
+    height: 180px;
+    justify-self: center;
+  }
+
+  .flashdeals_swiperslice h5 {
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 0 0 0.4rem 1rem;
+  }
+
+  .flashdeals_content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .flashdeals_title h3 {
+    margin: 0 0 1rem 0;
+  }
+}

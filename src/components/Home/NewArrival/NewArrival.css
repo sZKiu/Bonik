@@ -1,0 +1,168 @@
+@media screen and (min-width: 0px) and (max-width: 767px){
+  .newarrivals_container{
+    background-color: rgba(224, 245, 255, 0.751);
+    padding: 0 1rem 2rem 1rem;
+  }
+  
+  .newarrivals_title {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 1.4rem;
+    gap: 0.4rem;
+    margin-bottom: .8rem;
+  }
+  
+  .newarrivals_title h3{
+    margin: 1rem 0 0 0 ;
+  }
+  
+  .newarrivals_title svg {
+    margin: 1rem 0 0 0 ;
+    font-size: 1.9rem;
+    color: #55d55c;
+  }
+  
+  .newarrivals_cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-content: space-around;
+    background-color: #fff;
+    border: 1px solid rgb(215, 215, 215);
+    padding: 1rem;
+  }
+  
+  .newarrivals_card img{
+    width: 6rem;
+  }
+  
+  .newarrivals_card h4, .newarrivals_card p{
+    margin: 0;
+    color: #000;
+    transition: color .4s;
+  }
+  
+  .newarrivals_card{
+    transition: color .4s;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .newarrivals_card:hover h4{
+    color: #cb2525;
+    transition: color .4s;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+  .newarrivals_container{
+    background-color: rgba(224, 245, 255, 0.751);
+    padding: 0 5rem 2rem 5rem;
+  }
+  
+  .newarrivals_title {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 1.4rem;
+    gap: 0.4rem;
+    margin-bottom: .8rem;
+  }
+  
+  .newarrivals_title h3{
+    margin: 1rem 0 0 0 ;
+  }
+  
+  .newarrivals_title svg {
+    margin: 1rem 0 0 0 ;
+    font-size: 1.9rem;
+    color: #55d55c;
+  }
+  
+  .newarrivals_cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    justify-content: space-around;
+    background-color: #fff;
+    border: 1px solid rgb(215, 215, 215);
+    padding: 1rem;
+  }
+  
+  .newarrivals_card img{
+    width: 10rem;
+  }
+  
+  .newarrivals_card h4, .newarrivals_card p{
+    margin: 0;
+    color: #000;
+    transition: color .4s;
+  }
+  
+  .newarrivals_card{
+    transition: color .4s;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .newarrivals_card:hover h4{
+    color: #cb2525;
+    transition: color .4s;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .newarrivals_container{
+    background-color: rgba(224, 245, 255, 0.751);
+    padding: 0 5rem 2rem 5rem;
+  }
+  
+  .newarrivals_title {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 1.4rem;
+    gap: 0.4rem;
+    margin-bottom: .8rem;
+  }
+  
+  .newarrivals_title h3{
+    margin: 1rem 0 0 0 ;
+  }
+  
+  .newarrivals_title svg {
+    margin: 1rem 0 0 0 ;
+    font-size: 1.9rem;
+    color: #55d55c;
+  }
+  
+  .newarrivals_cards{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    border: 1px solid rgb(215, 215, 215);
+    padding: 1rem;
+  }
+  
+  .newarrivals_card img{
+    width: 8rem;
+  }
+  
+  .newarrivals_card h4, .newarrivals_card p{
+    margin: 0;
+    color: #000;
+    transition: color .4s;
+  }
+  
+  .newarrivals_card{
+    transition: color .4s;
+    cursor: pointer;
+  }
+  
+  .newarrivals_card:hover h4{
+    color: #cb2525;
+    transition: color .4s;
+  }
+}
+

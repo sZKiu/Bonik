@@ -1,0 +1,179 @@
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .container_swiper {
+    margin: 1rem 1rem 2rem 1rem;
+  }
+  
+  .individual-swiper {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    align-items: center;
+    gap: 1.2rem;
+  }
+  
+  .individual-swiper img {
+    height: 9rem !important;
+  }
+  
+  .individual-swiper-firstPart {
+    display: grid;
+    gap: .8rem;
+    margin-bottom: 2.4rem;
+  }
+  
+  .individual-swiper p {
+    margin: 0;
+    font-size: .8rem;
+  }
+  
+  .individual-swiper h2 {
+    font-size: 1.4rem;
+    margin: 0;
+  }
+  
+  .individual-swiper-firstPart span {
+    /* margin: 0 0 0.4rem 1rem; */
+    color: #cb2525;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  .individual-swiper button {
+    width: fit-content;
+    height: fit-content;
+    padding: 0.6rem 1.2rem;
+    background-color: rgb(203, 37, 37);
+    border: transparent;
+    border-radius: 0.4rem;
+    font-weight: 550;
+    color: #fff;
+    cursor: pointer;
+    font-size: .8rem;
+  }
+  
+  .swiper-pagination-bullet {
+    padding: 0.1rem;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: rgb(28, 28, 28) !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1079px) {
+  .container_swiper {
+    margin: 2rem 6rem 2rem 6rem;
+  }
+  
+  .individual-swiper {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    align-items: center;
+    gap: 1.2rem;
+  }
+  
+  .individual-swiper img {
+    height: 14rem !important;
+  }
+  
+  .individual-swiper-firstPart {
+    display: grid;
+    gap: .8rem;
+    margin-bottom: 2.4rem;
+  }
+  
+  .individual-swiper p {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  
+  .individual-swiper h2 {
+    font-size: 2.2rem;
+    margin: 0;
+  }
+  
+  .individual-swiper-firstPart span {
+    /* margin: 0 0 0.4rem 1rem; */
+    color: #cb2525;
+    font-weight: 600;
+    font-size: 1.6rem;
+  }
+  
+  .individual-swiper button {
+    width: fit-content;
+    height: fit-content;
+    padding: 0.8rem 1.4rem;
+    background-color: rgb(203, 37, 37);
+    border: transparent;
+    border-radius: 0.4rem;
+    font-weight: 550;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  
+  .swiper-pagination-bullet {
+    padding: 0.1rem;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: rgb(28, 28, 28) !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container_swiper {
+    margin: 2rem 6rem 2rem 6rem;
+  }
+  
+  .individual-swiper {
+    display: grid;
+    grid-template-columns: 2fr 0.5fr;
+    align-items: center;
+  }
+  
+  .individual-swiper img {
+    height: 300px;
+  }
+  
+  .individual-swiper-firstPart {
+    display: grid;
+    margin: 3rem 0;
+    gap: 1rem;
+  }
+  
+  .individual-swiper p {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  
+  .individual-swiper h2 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .individual-swiper-firstPart span {
+    /* margin: 0 0 0.4rem 1rem; */
+    color: #cb2525;
+    font-weight: 600;
+  }
+  
+  .individual-swiper button {
+    width: fit-content;
+    height: fit-content;
+    padding: 0.6rem 2rem;
+    background-color: rgb(203, 37, 37);
+    border: transparent;
+    border-radius: 0.4rem;
+    font-weight: 550;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .swiper-pagination-bullet {
+    padding: 0.1rem;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: rgb(28, 28, 28) !important;
+  }  
+}

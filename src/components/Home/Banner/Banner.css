@@ -1,0 +1,11 @@
+.banner {
+  background-color: rgba(224, 245, 255, 0.751);
+  padding: 0 5rem 2rem 5rem;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 1.5rem;
+}
+
+.banner img{
+  height: 50%;
+}

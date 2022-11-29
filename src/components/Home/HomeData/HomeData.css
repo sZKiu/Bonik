@@ -1,0 +1,119 @@
+@media screen and (min-width: 0px) and (max-width: 767px){
+  .homedata_container{
+    display: grid;
+    background-color: rgba(224, 245, 255, 0.751);
+    padding: 0 1rem 2rem 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+  
+  .homedata_container div{
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+    display: grid;
+    gap: 1.4rem;
+    border: 1px solid rgb(215, 215, 215);
+  }
+  
+  .homedata_container div p{
+    color: rgb(102, 102, 102);
+    margin: 0;
+  }
+  
+  .homedata_container div h4{
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  .homedata_container div svg{
+    font-size: 2rem;
+  }
+  
+  .homedata_container div div{
+    background-color: rgb(233, 233, 233);
+    width: min-content;
+    justify-self: center;
+    border-radius: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+  .homedata_container{
+    display: grid;
+    background-color: rgba(224, 245, 255, 0.751);
+    padding: 0 5rem 2rem 5rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .homedata_container div{
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+    display: grid;
+    gap: 1.4rem;
+    border: 1px solid rgb(215, 215, 215);
+  }
+  
+  .homedata_container div p{
+    color: rgb(102, 102, 102);
+    margin: 0;
+  }
+  
+  .homedata_container div h4{
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  .homedata_container div svg{
+    font-size: 2rem;
+  }
+  
+  .homedata_container div div{
+    background-color: rgb(233, 233, 233);
+    width: min-content;
+    justify-self: center;
+    border-radius: 2rem;
+  }
+}
+
+@media screen and (min-width: 1280px){
+  .homedata_container{
+    display: grid;
+    background-color: rgba(224, 245, 255, 0.751);
+    padding: 0 5rem 2rem 5rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  
+  .homedata_container div{
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+    display: grid;
+    gap: 1.4rem;
+    border: 1px solid rgb(215, 215, 215);
+  }
+  
+  .homedata_container div p{
+    color: rgb(102, 102, 102);
+    margin: 0;
+  }
+  
+  .homedata_container div h4{
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  .homedata_container div svg{
+    font-size: 2rem;
+  }
+  
+  .homedata_container div div{
+    background-color: rgb(233, 233, 233);
+    width: min-content;
+    justify-self: center;
+    border-radius: 2rem;
+  }
+}
